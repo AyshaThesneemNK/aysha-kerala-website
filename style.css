@@ -31,72 +31,47 @@ header a img{
   width: 134px;
 margin-top: 4px;
 }
-.login-page {
-  width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
-}
-.login-page .form .login{
-  margin-top: -31px;
-margin-bottom: 26px;
-}
-.form {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
+head{
   text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-left: 10cm;
 }
-.form input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
+/* Style all input fields */
+input {
   width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+} 
+
+/* Style the submit button */
+
+#main
+{
+  width:600px; height:260px; background-color: #edfd05; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
+  border-top:3px double #309fb4; border-bottom:3px double #308fb4; border-left:3px double #309fb4; border-right:3px double #309fb4; padding-top:20px;
 }
-.form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background-color: #328f8a;
-  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}
-.form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
-}
-.form .message a {
-  color: #4CAF50;
-  text-decoration: none;
+#main table
+{
+  font-family: Arial, Helvetica, sans-serif;
+} 
+/* css code for textbox */
+#main .tb
+{
+ height:28px; width:230px; border:1px solid #070707; color: #050505; font-weight: bold; border-left: 5px solid #0a0a0a; opacity:0.9;
 }
 
-.container {
-  position: relative;
-  z-index: 1;
-  max-width: 300px;
-  margin: 0 auto;
+/* css code for button*/
+#main .btn
+{
+ width:80px; height:32px; outline:none;  font-weight:bold; border:0px solid #27a465; text-shadow: 0px 0.5px 0.5px #fff;	
+ border-radius: 2px; font-weight: 600; color: #27a465; letter-spacing: 1px; font-size:14px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
 }
 
-body {
-  background-color: #328f8a;
-  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#main .btn
+{
+ background-color:#27a465; outline:none;  border-radius: 2px; color:#070707; border:1px solid black;
 }
+
